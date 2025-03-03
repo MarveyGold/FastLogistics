@@ -1,0 +1,42 @@
+.home{
+    background: linear-gradient(skyblue, lightblue, aqua)  ;
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(1, 1, 63);
+}
+.means{
+    margin: 0;
+    position: relative;
+}
+.means::before{
+    width: 200px;
+    height: 30px;
+    background-color: aqua;
+    content: '';
+    position: absolute;
+    z-index: 1;
+    animation: anim 9s infinite 2ms ;
+    transform: translateX(3px);
+    
+}
+@keyframes anim {
+    0%{
+        color:rgb(1, 1, 63) ;
+        
+        
+    }
+    50%{
+        color: rgb(1, 1, 63);
+        transform: translateX(200px);
+       
+    }
+    100%{
+
+    }
+}
+.ship{
+    bottom: 0;
+}
