@@ -1,0 +1,32 @@
+.services{
+    background: linear-gradient(aqua, rgb(1, 110, 110));
+    height: 100vh;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services ul h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.services ul li{
+    list-style: decimal-leading-zero;
+}
+.services ul li:hover{
+    transform: translateX(10%);
+    
+}
+.services ul{
+    font-size: xx-large;
+}
+
+
+@media (max-width: 500px) {
+    .services ul{
+        min-width: 50%;
+        width: 300px;
+        font-size: large;
+        max-width: 100%;
+    }
+}
