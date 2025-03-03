@@ -11,7 +11,7 @@ export default function HomeSection() {
             </div>
         
             <div className={styles.slogan}>
-             <h3 className="bx-sm bx" style={{width: '60vw'}} > We cover the world to Nigerian ports</h3>       
+             <h3 className=" bx" style={{width: '100vw'}} > We cover the world to Nigerian ports</h3>       
             </div>
             <Image type="image" src="/ship.png" alt="ship" className={styles.ship} width={500} height={300} style={{maxWidth: '100%', height: 'auto' }} />
             <div className={styles.means}>
