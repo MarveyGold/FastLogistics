@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
+import {useState} from "react";
 
 
 export default function HomeSection() {
@@ -10,12 +11,12 @@ export default function HomeSection() {
                 <Image src="/planes.png"  alt="Plane" className={styles.plane} width={500} height={300} style={{maxWidth: '100%', height: 'auto' }} />
             </div>
         
-            <div className={styles.slogan}>
-             <h3 className=" bx" style={{width: '100vw'}} > We cover the world to Nigerian ports</h3>       
+            <div className=" bx" style={{width: '100vw'}} >
+             <h3  className={styles.slogan}> We cover the world to Nigerian ports</h3>       
             </div>
             <Image type="image" src="/ship.png" alt="ship" className={styles.ship} width={500} height={300} style={{maxWidth: '100%', height: 'auto' }} />
-            <div className={styles.means}>
-                <h3 className="bx bx-xs">Air, Sea and Land</h3>
+            <div className="bx bx-xs" >
+                <h3 className={styles.means}>Air, Sea and Land</h3>
             </div>
             
         </div>
