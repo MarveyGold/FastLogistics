@@ -21,7 +21,7 @@ export default function Nav() {
         ☰
       </button>
 
-      {menuOpen && (
+      
         <nav className={`${styles.nav} ${menuOpen ? styles.active : ''}`}>
           <ul className={styles.ul}>
             <li><Link href="#home"><span className={styles.u}>Home</span></Link></li>
@@ -29,7 +29,7 @@ export default function Nav() {
             <li><Link href="#contact-us"><span className={styles.u}>Contact Us</span></Link></li>
           </ul>
         </nav>
-      )}
+      
     </>
   );
         }
