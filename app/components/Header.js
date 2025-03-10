@@ -1,4 +1,4 @@
-'use client';
+
 import Link from "next/link";
 import { useState } from "react";
 import styles from "@/styles/Header.module.css";
@@ -14,7 +14,7 @@ export default function Header() {
          <h2 className={styles.l} >F ast Logistics</h2>
             <i >excellence inspired</i>
         </div>
-        <button className={styles.menuToggle} onClick={toggleMenu} aria-label="Navigation Menu" >☰</button>
+        
         <nav className={`${styles.nav} ${menuOpen ? styles.active : '' }` } >
             <ul className={styles.ul} >
                 <li> <Link href="#home" className={styles.u} >Home</Link> </li>
