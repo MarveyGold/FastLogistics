@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import styles from "@/styles/Header.module.css";
-import Button from "./components/Button"
+import Button from "./components/Button";
 
 export default function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
