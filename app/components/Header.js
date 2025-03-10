@@ -5,7 +5,7 @@ import styles from "@/styles/Header.module.css";
 import Button from "./components/Button";
 
 export default function Header() {
-    const [menuOpen, setMenuOpen] = useState(false);
+    
     
     return(
         <header className={styles.header} > 
