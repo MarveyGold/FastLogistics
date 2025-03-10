@@ -1,7 +1,7 @@
 'use client';
 import Link from "next/link";
 import { useState } from "react";
-import styles from "@/styles/Header.module.css";  // Ensure styles are properly structured
+import styles from "@/styles/Header.module.css";  
 
 export default function Button() {
   const [menuOpen, setMenuOpen] = useState(false);
