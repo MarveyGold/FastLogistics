@@ -14,13 +14,7 @@ export default function Header() {
             <i >excellence inspired</i>
         </div>
         <Button />
-        <nav className={`${styles.nav} ${menuOpen ? styles.active : '' }` } >
-            <ul className={styles.ul} >
-                <li> <Link href="#home" className={styles.u} >Home</Link> </li>
-                <li><Link href="#services" className={styles.u}>Services</Link> </li>
-                <li><Link href="#contact-us" className={styles.u}>Contact Us</Link></li>
-            </ul>
-        </nav>
+        
         </header>
     )
 }
