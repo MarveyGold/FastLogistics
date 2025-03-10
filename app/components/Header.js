@@ -6,9 +6,7 @@ import Button from "./components/Button";
 
 export default function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
-    const toggleMenu = () => {
-        setMenuOpen(!menuOpen);
-    };
+    
     return(
         <header className={styles.header} > 
         <div className={styles.logo} >
