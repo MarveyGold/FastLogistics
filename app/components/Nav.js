@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 import styles from "@/styles/Header.module.css";  
 
-export default function Button() {
+export default function Nav() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
