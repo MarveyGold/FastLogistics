@@ -1,5 +1,5 @@
 import styles from "@/styles/Header.module.css";
-import Button from "./Button";
+import Nav from "./Nav";
 
 export default function Header() {
     
