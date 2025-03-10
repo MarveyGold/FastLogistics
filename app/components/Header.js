@@ -10,7 +10,7 @@ export default function Header() {
          <h2 className={styles.l} >F ast Logistics</h2>
             <i >excellence inspired</i>
         </div>
-        <Button />
+        <Nav />
         
         </header>
     )
