@@ -16,7 +16,7 @@ export default function HomeSection() {
                     />
                 </div>
                 
-                <div className={styles.bx} style={{ width: '100%' }}>
+                <div className='bx' style={{ width: '100%' }}>
                     <h3 className={styles.slogan}>We cover the world to Nigerian ports</h3>       
                 </div>
                 
@@ -29,7 +29,7 @@ export default function HomeSection() {
                     style={{ maxWidth: '100%', height: 'auto' }} 
                 />
                 
-                <div className={styles.bxXs}>
+                <div className="bx bx-xs">
                     <h3 className={styles.means}>Air, Sea and Land</h3>
                 </div>
             </div>
