@@ -81,7 +81,7 @@
 .menuToggle:hover{
     transform: rotate(90deg);
 }
-@media (max-width: 700px) {
+@media (max-width: 768px) {
     .menuToggle{
         display: block;
         font-size: 20px;
